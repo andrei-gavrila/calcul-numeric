@@ -1,0 +1,63 @@
+\documentclass{article}
+\usepackage{hyperref}
+\usepackage{amsmath}
+\usepackage{amsthm}
+\usepackage{amssymb}
+
+\begin{document}
+
+\title{Calcul numeric - tem\u{a} de laborator}
+
+\author{Andrei - Gabriel GAVRIL\u{A}, grupa 10LD521}
+
+\date{Februarie - Mai 2025}
+
+\maketitle
+
+\section*{Enun\c{t}: Capitolul 8, Subcapitolul II, Problema 1}
+
+S\u{a} se calculeze descompunerea / factorizarea QR a matricei:
+\begin{center}
+$
+A=\begin{pmatrix}
+  4 & 5 & 2 \\
+  3 & 0 & 3 \\
+  0 & 4 & 6
+\end{pmatrix}
+$
+\end{center}
+
+\section*{Solu\c{t}ie}
+
+\begin{center}
+A = [4, 5, 2; 3, 0, 3; 0, 4, 6]
+\end{center}
+\begin{center}
+[Q, R] = qr(A)
+\end{center}
+
+\begin{center}
+$
+Q =\begin{pmatrix}
+  -0.8000 &    0.3600 &   -0.4800 \\
+  -0.6000 &   -0.4800 &    0.6400 \\
+        0 &    0.8000 &    0.6000 \\
+\end{pmatrix}
+$
+\end{center}
+
+\begin{center}
+$
+R =\begin{pmatrix}
+  -5.0000 &   -4.0000 &   -3.4000 \\
+        0 &    5.0000 &    4.0800 \\
+        0 &         0 &    4.5600
+\end{pmatrix}
+$
+\end{center} 
+    
+\section*{Observa\c{t}ii}
+
+...
+
+\end{document}
